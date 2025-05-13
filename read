@@ -1,0 +1,86 @@
+Skip to content
+Navigation Menu
+pavanEX31
+AI-Driven-Phishing-Detection
+
+Type / to search
+Code
+Issues
+Pull requests
+1
+Actions
+Projects
+Security
+Insights
+README.md #1
+ Open
+waghmarepoo75060 wants to merge 2 commits into pavanEX31:main from waghmarepoo75060:patch-1  
++60 −89 
+ Conversation 0
+ Commits 2
+ Checks 0
+ Files changed 1
+ Open
+README.md
+#1
+File filter 
+ 
+Update README.md
+@pavanEX31
+pavanEX31 authored 2 minutes ago 
+commit bf357ed237de21ebdac8444c4cc97cbbc1f92c66
+  17 changes: 1 addition & 16 deletions17  
+README.md
+Original file line number	Diff line number	Diff line change
+@@ -37,33 +37,18 @@ Enter a website link in the input field to classify *Phishing vs. Legitimate*.
+   ├── phishing_data.csv  (Dataset)
+
+
+📊 Screenshots
+*Homepage*
+
+📄 License & Disclaimer
+- License:*MIT License  
+- Disclaimer: This tool is designed for *educational and cybersecurity research* purposes. It should not be used for offensive security operations or unauthorized testing.
+
+🎞 Demo Video
+🔗 YouTube Link: _[Insert Video Link Here]_  
+- Covers:
+  ✅ Introduction & Problem Statement  
+  ✅ Code Walkthrough  
+  ✅ Live Demo of URL Classification  
+
+📖 Research Paper 
+Includes:
+- AI-based phishing detection techniques  
+- Feature extraction methodologies  
+- ML model training and evaluation  
+- Ethical and cybersecurity considerations  
+
+📈 Presentation (Slides)
+🔗  
+- Introduction: Problem & Solution  
+- Code/Tool Breakdown  
+- Real-World Use Cases  
+- Future Enhancements  
+- Ethical and cybersecurity considerations 
+
+👨‍💻 Contributors
+- Pooja Waghmare & Pavan Nag
+- *Internship Program:* Digisuraksha Parhari Foundation, Powered by Infinisec Technologies Pvt. Ltd.
+📩 Submission Details
+- ✅ GitHub Repo:https://github.com/pavanEX31/AI-Driven-Phishing-Detection.git
+- ✅ Email for Submission: `support@digisuraksha.org`  
+- ✅ Subject: cyberSecurity Internship Final Submission by Pooja Waghmare & Pavan Nag
+Footer
+© 2025 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+README.md by waghmarepoo75060 · Pull Request #1 · pavanEX31/AI-Driven-Phishing-Detection 
