@@ -1,0 +1,140 @@
+git --version
+git config --global user.name
+git config --global user.email
+git config --list
+cd foldername
+git init
+git status
+git add filename
+git add .
+git commit -m ""
+git log
+git log --stat
+git log --pretty=oneline
+git log -p
+git log -n 3
+git log --since=""
+git log --until=""
+gitk
+git commit --amend
+git reset HEAD filename
+git restore --staged filename
+git checkout -- filename
+git restore filename
+git clone url
+git remote
+git remote -v
+git remote add pb url
+git fetch origin
+git push origin main
+git remote show origin
+git remote rm origin
+git remote rename old new
+git tag
+git tag v1.0
+git tag -a v1.0 -m ""
+git tag -s v1.0 -m ""
+git tag -v v1.4.2
+git push origin tagname
+git config --global alias.ci commit
+git branch new-branch-name
+git checkout feature1
+git checkout -b feature1
+git push -u origin feature1
+git pull origin feature 1
+
+<plugin>
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-compiler-plugin</artifactId>
+<version>3.8.1</version>
+<configuration>
+<source>8</source>
+<target>8</target>
+</configuration>
+</plugin>
+
+https://chatgpt.com/share/69adc85d-9110-8004-af92-8ee2993ca90b 
+<%@ page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<title>Calculator App</title>
+</head>
+
+<body>
+
+<form action="CalculatorServlet" method="get">
+
+Enter First Number:
+<input type="text" name="txtN1"><br>
+
+Enter Second Number:
+<input type="text" name="txtN2"><br>
+
+Select an Operation<br>
+
+<input type="radio" name="opr" value="+">ADDITION<br>
+
+<input type="radio" name="opr" value="-">SUBTRACTION<br>
+
+<input type="radio" name="opr" value="*">MULTIPLY<br>
+
+<input type="radio" name="opr" value="/">DIVIDE<br>
+
+<input type="reset">
+<input type="submit" value="Calculate">
+
+</form>
+
+</body>
+</html>
+
+
+Servlet
+package org.mywebapp.com;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class CalculatorServlet extends HttpServlet {
+
+    public void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        response.setContentType("text/html;charset=UTF-8");
+
+        PrintWriter out = response.getWriter();
+
+        out.println("<html><head><title>Calculator Servlet</title></head><body>");
+
+        double n1 = Double.parseDouble(request.getParameter("txtN1"));
+        double n2 = Double.parseDouble(request.getParameter("txtN2"));
+
+        String opr = request.getParameter("opr");
+
+        double result = 0;
+
+        if (opr.equals("+"))
+            result = n1 + n2;
+
+        if (opr.equals("-"))
+            result = n1 - n2;
+
+        if (opr.equals("*"))
+            result = n1 * n2;
+
+        if (opr.equals("/"))
+            result = n1 / n2;
+
+        out.println("<h2>Result = " + result + "</h2>");
+
+        out.println("</body></html>");
+    }
+}
